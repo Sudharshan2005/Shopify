@@ -18,6 +18,7 @@ The banner text:
 ## 📸 Demo
 
 ### Banner Example
+### Password: shaoyu
 ![alt text](<Screenshot 2025-08-30 at 00.05.46.png>)
 (./assets/banner.png)
 ---
