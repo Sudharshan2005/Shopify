@@ -1,0 +1,26 @@
+{% schema %}
+{
+  "name": "Promo Banner",
+  "target": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "banner_text",
+      "label": "Banner text",
+      "default": "Welcome to our store! 🎉"
+    },
+    {
+      "type": "color",
+      "id": "banner_bg",
+      "label": "Background color",
+      "default": "#FFD700"
+    }
+  ]
+}
+{% endschema %}
+
+<div style="background-color: {{ block.settings.banner_bg }}; padding: 10px; text-align: center;">
+  <p style="margin: 0; font-weight: bold;">
+    {{ block.settings.banner_text }}
+  </p>
+</div>
