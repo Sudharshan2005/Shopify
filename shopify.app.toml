@@ -3,7 +3,7 @@
 client_id = "13e964322d91bc5bd22a4234d2bc5870"
 name = "promo-banner"
 handle = "promo-banner-7"
-application_url = "https://shopify-mu-seven.vercel.app"
+application_url = "https://jewelry-hollywood-defects-surfing.trycloudflare.com"
 embedded = true
 
 [build]
@@ -27,11 +27,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://pregnant-attempted-mazda-binary.trycloudflare.com/auth/callback",
-  "https://pregnant-attempted-mazda-binary.trycloudflare.com/auth/shopify/callback",
-  "https://pregnant-attempted-mazda-binary.trycloudflare.com/api/auth/callback",
-  "https://shopify-mu-seven.vercel.app/auth/callback",
-  "https://shopify-mu-seven.vercel.app/api/auth/callback"
+  "https://jewelry-hollywood-defects-surfing.trycloudflare.com/auth/callback",
+  "https://jewelry-hollywood-defects-surfing.trycloudflare.com/auth/shopify/callback",
+  "https://jewelry-hollywood-defects-surfing.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
