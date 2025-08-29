@@ -3,7 +3,7 @@
 client_id = "13e964322d91bc5bd22a4234d2bc5870"
 name = "promo-banner"
 handle = "promo-banner-7"
-application_url = "https://pregnant-attempted-mazda-binary.trycloudflare.com"
+application_url = "https://shopify-mu-seven.vercel.app"
 embedded = true
 
 [build]
@@ -29,7 +29,9 @@ scopes = "write_products"
 redirect_urls = [
   "https://pregnant-attempted-mazda-binary.trycloudflare.com/auth/callback",
   "https://pregnant-attempted-mazda-binary.trycloudflare.com/auth/shopify/callback",
-  "https://pregnant-attempted-mazda-binary.trycloudflare.com/api/auth/callback"
+  "https://pregnant-attempted-mazda-binary.trycloudflare.com/api/auth/callback",
+  "https://shopify-mu-seven.vercel.app/auth/callback",
+  "https://shopify-mu-seven.vercel.app/api/auth/callback"
 ]
 
 [pos]
