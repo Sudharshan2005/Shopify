@@ -1,9 +1,9 @@
+import { redirect } from "react-router-dom";
+
+export const loader = async () => {
+  return redirect("https://promo-banner7781.myshopify.com");
+};
+
 export default function App() {
-  return (
-    <iframe 
-      src="https://promo-banner7781.myshopify.com"
-      title="Promo Banner"
-      style={{ width: "100%", height: "100vh", border: "none" }}
-    />
-  );
+  return null;
 }
